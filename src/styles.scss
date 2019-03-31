@@ -1,0 +1,94 @@
+@import '~@angular/material/theming';
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  &.center {
+    justify-content: center;
+    align-items: center;
+    > .mat-card {
+      width: 250px;
+      &.big {
+        width: auto;
+      }
+    }
+  }
+}
+
+.btn-wrp {
+  .mat-flat-button:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.mat-flat-button {
+  .mat-spinner {
+    display: inline-block;
+    vertical-align: text-bottom;
+  }
+}
+
+.mat-snack-bar-container {
+  .mat-simple-snackbar {
+    font-size: 1rem;
+  }
+  &.success {
+    background: mat-color($mat-green, 500);
+    color: #ffffff;
+    .mat-simple-snackbar-action {
+      color: mat-color($mat-green, 100);
+    }
+  }
+  &.error {
+    background: mat-color($mat-red, 600);
+    color: #ffffff;
+    .mat-simple-snackbar-action {
+      color: mat-color($mat-red, 100);
+    }
+  }
+}
+
+.mat-form-field {
+  .mat-form-field-underline {
+    position: static;
+  }
+  .mat-form-field-subscript-wrapper {
+    position: static;
+  }
+}
+
+form {
+  .mat-list {
+    padding-top: 0;
+    margin-bottom: 8px;
+    .mat-list-item {
+      height: auto;
+      &.error-item {
+        font-size: 0.9rem;
+        color: mat-color($mat-red, 500);
+        .material-icons {
+          font-size: 1.2rem;
+          margin-right: 5px;
+        }
+        .mat-list-item-content {
+          padding: 0 0 5px;
+        }
+      }
+    }
+  }
+}
