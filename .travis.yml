@@ -8,5 +8,4 @@ before_script:
   - sleep 1 # give server time to start
 
 script:
-  - npm install
   - npm run ci-local
