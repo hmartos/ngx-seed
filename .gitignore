@@ -2,3 +2,4 @@ node_modules/
 coverage/
 dist/
 e2e/reports/
+package-lock.json
