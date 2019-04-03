@@ -1,5 +1,8 @@
 # ngx-seed
 
+[![Build Status](https://travis-ci.org/hmartos/ngx-seed.svg?branch=master)](https://travis-ci.org/hmartos/ngx-seed)
+
+
 Boilerplate to create an Angular 7+ WebApp with environment variables, router, internationalization and spectator to run tests
 
 ## Getting started
