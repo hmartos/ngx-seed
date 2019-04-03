@@ -1,4 +1,6 @@
-# UI TODO Name
+# ngx-seed
+
+Boilerplate to create an Angular 7+ WebApp with environment variables, router, internationalization and spectator to run tests
 
 ## Getting started
 
